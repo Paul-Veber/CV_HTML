@@ -1,6 +1,6 @@
 /* GENERAL */
 :root {
-  --blue: #4472C4
+  --blue: #4472c4;
 }
 
 * {
@@ -11,13 +11,13 @@
 body {
   font-family: Roboto;
   font-weight: 300;
-  font-size: .9rem;
+  font-size: 0.9rem;
   line-height: 1.5;
 }
 
 a {
   text-decoration: none;
-  color: #4472C4;
+  color: #4472c4;
 }
 
 a:hover {
@@ -31,7 +31,7 @@ p {
 h1 {
   margin: 0 0 1rem;
   font-size: 2.5rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
@@ -53,7 +53,7 @@ h2 {
 }
 
 .icon {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 .cv-container {
@@ -62,7 +62,9 @@ h2 {
   grid-template-areas: "left-column right-column right-column";
   width: 1200px;
   margin: 100px auto;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .section {
@@ -111,7 +113,7 @@ h2 {
 .header {
   grid-area: header;
   padding: 50px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
   justify-content: center;
