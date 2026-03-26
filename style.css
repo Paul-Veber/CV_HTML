@@ -25,19 +25,24 @@ a:hover {
 }
 
 p {
-  margin: 0 0 1rem;
+  margin: 0 0 0,8rem;
 }
 
 h1 {
-  margin: 0 0 1rem;
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  margin: 0 0 0,5rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
 }
 
 h2 {
   margin: 0 0 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.experience-title {
+  font-size: 1rem;
+  font-weight: bold; 
 }
 
 .text-blue {
@@ -60,15 +65,15 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "left-column right-column right-column";
-  /*width: 1200px;*/
-  /*margin: 100px auto;*/
+  width: 1200px;*/
+  margin: 100px auto;*/
   box-shadow:
     0 1px 3px rgba(0, 0, 0, 0.12),
     0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .section {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0,8rem;
 }
 
 /* LEFT COLUMN */
@@ -89,7 +94,7 @@ h2 {
   max-width: 300px;
   margin: auto;
   display: block;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .skills {
